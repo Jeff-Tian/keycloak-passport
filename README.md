@@ -1,5 +1,9 @@
 # Keycloak Passport Strategy - oAuth2/OIDC
 
+> Production-ready multi-realm implementation of a Keycloak Passport Strategy 
+
+[![Build Status](https://travis-ci.com/Jeff-Tian/keycloak-passport.svg?branch=master)](https://travis-ci.com/Jeff-Tian/keycloak-passport)
+
 This library offers a production-ready and maintained Keycloak Passport connector that offers the following key features:
 
 - Use multiple realms in the same application (multi-tenancy)

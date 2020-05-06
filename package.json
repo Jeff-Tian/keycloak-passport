@@ -1,14 +1,15 @@
 {
   "name": "@jeff-tian/keycloak-passport",
-  "version": "1.0.2",
+  "version": "0.0.0-development",
   "description": "Flexible Keycloak Passport strategy (with multi-realm support) by EXL Inc.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --require intelli-espower-loader test"
+    "test": "mocha --require intelli-espower-loader test",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jeff-tian/keycloak-passport.git"
+    "url": "https://github.com/jeff-tian/keycloak-passport.git"
   },
   "keywords": [
     "keycloak",
@@ -31,6 +32,7 @@
   "devDependencies": {
     "intelli-espower-loader": "^1.0.1",
     "mocha": "^7.1.2",
-    "power-assert": "^1.6.1"
+    "power-assert": "^1.6.1",
+    "semantic-release": "^17.0.7"
   }
 }
