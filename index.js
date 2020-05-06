@@ -1,7 +1,10 @@
 const util = require('util');
 const OAuth2Strategy = require('passport-oauth2');
+const KeycloakEnvConfig = require('./configuration');
 
 function Strategy(options, verify) {
+  options = new KeycloakEnvConfig(options);
+
   [
     'host',
     'realm',

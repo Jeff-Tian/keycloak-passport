@@ -21,13 +21,13 @@ To a certain extent, yes. There are about 3 to 4 repos that brand themselves as 
 ## Install
 
 ```bash
-npm install @exlinc/keycloak-passport
+npm install @jeff-tian/keycloak-passport
 ```
 
 ### Import
 
 ```javascript
-import KeycloakStrategy from "@exlinc/keycloak-passport";
+import KeycloakStrategy from "@jeff-tian/keycloak-passport";
 ```
 
 ### Initialize
@@ -75,7 +75,7 @@ router.get(
 
 ## Compatability with next-auth
 
-There are some known issues with using this passportjs strategy with the latest versions of next-auth. Follow the discussion [here](https://github.com/exlinc/keycloak-passport/issues/1).
+There are some known issues with using this passportjs strategy with the latest versions of next-auth. Follow the discussion [here](https://github.com/jeff-tian/keycloak-passport/issues/1).
 
 ## Contributing/feedback
 
